@@ -1,20 +1,21 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - print to screen
  *
- * Return: It will return 0
+ * Return: always 0 (success)
  */
 int main(void)
-{	
-char d;
-int a;	
-long int b;
-long long int c
-float f;
-	printf("size of a char: %zu byte(s)\n", sizeof(d));
-	printf("size of a int: %zu byte(s)\n", sizeof(a));
-	printf("size of a long init: %zu byte(s)\n", sizeof(b));
-	printf("size of a long long init: %zu byte(s)\n", sizeof(d));
-	printf("size of a float: %zu byte(s)\n", sizeof(f));
+{
+	char c;
+	int i;
+	long int a;
+	long long int b;
+	float f;
+
+	printf("Size of a char: %zu byte(s)\n", sizeof(c));
+	printf("Size of an int: %zu byte(s)\n", sizeof(i));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(a));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a float: %zu byte(s)\n", sizeof(f));
 	return (0);
 }
