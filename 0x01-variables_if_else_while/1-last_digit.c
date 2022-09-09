@@ -1,8 +1,3 @@
-/**
- * Welcome to my code
- *
- * Do enjoy your stay
- */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
