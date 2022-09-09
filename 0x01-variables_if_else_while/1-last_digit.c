@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Check the last digit
+ * main - check for last digit
  *
  * Return: 0
  */
 int main(void)
 {
 	int n;
-	int ln:
+	int ln;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -28,3 +28,4 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ln);
 	}
 	return (0);
+}
