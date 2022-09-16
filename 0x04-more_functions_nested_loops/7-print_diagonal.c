@@ -7,7 +7,7 @@
  */
 void print_diagonal(int n)
 {
-int i, space
+int i, space;
 
 if (n <= 0)
 {
@@ -25,4 +25,4 @@ _putchar(92);
 _putchar('\n');
 }
 }
-}
+i}
