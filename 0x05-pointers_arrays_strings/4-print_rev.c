@@ -15,6 +15,7 @@ while (s[length] != '\0')
 length++;
 }
 
+last = length - 1;
 for (; last >= 0; last--)
 {
 _putchar(s[last]);
