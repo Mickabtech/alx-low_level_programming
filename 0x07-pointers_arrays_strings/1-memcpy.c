@@ -2,11 +2,11 @@
 
 /**
  * _memcpy - function that copies memory area
- * @src: source
- * @n: byte
- * @dset: content
+ * @src: source of data to be copied
+ * @n: byte of the mmemory
+ * @dset: content or data to be opied
  *
- * Return:apointer to dest
+ * Return:a pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
